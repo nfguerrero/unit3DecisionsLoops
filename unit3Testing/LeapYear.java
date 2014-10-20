@@ -9,7 +9,7 @@ public class LeapYear
         System.out.print("Year: ");
         Double year = scan.nextDouble();
         
-        if (((year%4)==0.0)&&((year%100)!=0)||((year%400)==0.0))
+        if (((year%4)==0.0)&&((year%100)!=0.0)||((year%400)==0.0))
         {
             System.out.print("That year is a leap year!");
         }
