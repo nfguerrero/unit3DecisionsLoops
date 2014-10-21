@@ -56,6 +56,22 @@ public class Magpie2
         {
             response = "She sounds like a good teacher.";
         }
+        else if (statement.trim().equals(""))
+        {
+            response = "Say something, please.";
+        }
+        else if (statement.indexOf("school") >= 0)
+        {
+            response = "Must be tough";
+        }
+        else if (statement.indexOf("book") >= 0)
+        {
+            response = "Reading helps you get smarter!";
+        }
+        else if (statement.indexOf("died") >= 0)
+        {
+            response = "I'm so sorry :(";
+        }
         else
         {
             response = getRandomResponse();
