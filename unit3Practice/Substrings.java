@@ -6,7 +6,7 @@ public class Substrings
     {
         Scanner scan = new Scanner(System.in);
         System.out.print("Word: ");
-        String word = scan.next();
+        String word = scan.nextLine();
         
         int times = 1;
         for (int key = 0; key < word.length() - 1; key++)
