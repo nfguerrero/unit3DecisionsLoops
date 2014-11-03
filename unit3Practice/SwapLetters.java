@@ -15,8 +15,7 @@ public class SwapLetters
         while (count < word.length())
         {
             int i = random.nextInt(word.length()-2);
-            int j = random.nextInt(word.length()-1-i)+1;
-            j += i;
+            int j = random.nextInt(word.length()-1-i)+1+i;
             
             String first = word.substring(0, i);
             String middle = word.substring(i+1, j);
