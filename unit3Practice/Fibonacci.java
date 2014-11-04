@@ -10,15 +10,15 @@ public class Fibonacci
         
         int fold1 = 1;
         int fold2 = 1;
-        int fnew = 1;
+        int fnew = fold1+fold2;
         
-        for (int count = 0; count < fnum; count++)
+        for (int count = 0; count < fnum - 3; count++)
         {
             fold2 = fold1;
             fold1 = fnew;
             fnew = fold1 + fold2;            
         }
         
-        System.out.print("Your Fibonacci number: " + fold2);
+        System.out.print("Your Fibonacci number: " + fnew);
     }
 }
