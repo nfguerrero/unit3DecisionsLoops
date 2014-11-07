@@ -34,7 +34,9 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal
 Extra Requirements
 
 *Grid will be 50x50 and boundless
-*
+*Alive cells look like rocks
+*Dead cells are blank
+*It does not wrap around
 
 
 Nonfunctional Requirements:
