@@ -7,6 +7,7 @@ import info.gridworld.actor.Bug;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.BoundedGrid;
 import info.gridworld.grid.Location;
+import java.util.ArrayList;
 
 /**
  * Game of Life starter code. Demonstrates how to create and populate the game using the GridWorld framework.
@@ -21,7 +22,7 @@ public class GameOfLife
     private ActorWorld world;
     
     // the game board will have 25 rows and 100 columns
-    private final int ROWS = 25;
+    private final int ROWS = 50;
     private final int COLS = 100;
     /**
      * Default constructor for objects of class GameOfLife
@@ -32,7 +33,7 @@ public class GameOfLife
     public GameOfLife()
     {
         // create the grid, of the specified size, that contains Actors
-        BoundedGrid<Actor> grid = new BoundedGrid<Actor>(ROWS, COLS);
+        BoundedGrid<Actor> grid = new BoundedGrid<Actor>(this.ROWS, this.COLS);
         
         // create a world based on the grid
         world = new ActorWorld(grid);
@@ -43,6 +44,9 @@ public class GameOfLife
         // display the newly constructed and populated world
         world.show();
         
+        createNextGeneration();
+        
+        world.show();
     }
     
     /**
@@ -115,10 +119,36 @@ public class GameOfLife
         Grid<Actor> grid = world.getGrid();
         
         // insert magic here...
+        BoundedGrid<Actor> newGrid = new BoundedGrid<Actor>(this.ROWS, this.COLS);
+        
+        // create a world based on the grid
+        world.setGrid(newGrid);
+        
         for (int col = 0; col < this.COLS; col++)
         {
             for (int row = 0; row < this.ROWS; row++)
             {
+                Location loc = new Location(col, row);
+                ArrayList around = grid.getOccupiedAdjacentLocations(loc);
+                if ((around.size() < 2) && (grid.isValid(loc) == true))
+                {
+                    newGrid.remove(loc);
+                }
+                else if ((around.size() < 4) && (grid.isValid(loc) == true))
+                {
+                    Rock rock = new Rock();
+                    newGrid.put(loc, rock);
+                }
+                else if ((around.size() > 3) && (grid.isValid(loc) == true))
+                {
+                    newGrid.remove(loc);
+                }
+                else if ((around.size() == 3) && (grid.isValid(loc) == false))
+                {
+                    Rock rock = new Rock();
+                    newGrid.put(loc, rock);
+                }
+                
                 
             }
         }
