@@ -129,7 +129,23 @@ public class GameOfLife
         final int X70 = 71, Y70 = 5;
         final int X71 = 72, Y71 = 4;
         final int X72 = 72, Y72 = 5;
-        
+        //GosperGlider gun 3
+        final int X73 = 37, Y73 = 41;
+        final int X74 = 38, Y74 = 41;
+        final int X75 = 37, Y75 = 42; 
+        final int X76 = 38, Y76 = 42;
+        final int X77 = 48, Y77 = 43;
+        final int X78 = 48, Y78 = 44;
+        final int X79 = 48, Y79 = 39;
+        final int X80 = 48, Y80 = 38;
+        final int X81 = 50, Y81 = 39;
+        final int X82 = 50, Y82 = 43;
+        final int X83 = 51, Y83 = 40;
+        final int X84 = 51, Y84 = 41;
+        final int X85 = 51, Y85 = 42;
+        final int X86 = 52, Y86 = 40;
+        final int X87 = 52, Y87 = 41;
+        final int X88 = 52, Y88 = 42;
         
         // the grid of Actors that maintains the state of the game
         //  (alive cells contains actors; dead cells do not)
@@ -423,6 +439,39 @@ public class GameOfLife
         Rock rock72 = new Rock();
         Location loc72 = new Location(Y72, X72);
         grid.put(loc72, rock72);
+        
+        Rock rock73 = new Rock();
+        Location loc73 = new Location(Y73, X73);
+        grid.put(loc73, rock73);
+        
+        Rock rock74 = new Rock();
+        Location loc74 = new Location(Y74, X74);
+        grid.put(loc74, rock74);
+        
+        Rock rock75 = new Rock();
+        Location loc75 = new Location(Y75, X75);
+        grid.put(loc75, rock75);
+        
+        Rock rock76 = new Rock();
+        Location loc76 = new Location(Y76, X76);
+        grid.put(loc76, rock76);
+        
+        Rock rock77 = new Rock();
+        Location loc77 = new Location(Y77, X77);
+        grid.put(loc77, rock77);
+        
+        Rock rock78 = new Rock();
+        Location loc78 = new Location(Y78, X78);
+        grid.put(loc78, rock78);
+        
+        Rock rock79 = new Rock();
+        Location loc79 = new Location(Y79, X79);
+        grid.put(loc79, rock79);
+        
+        Rock rock80 = new Rock();
+        Location loc80 = new Location(Y80, X80);
+        grid.put(loc80, rock80);
+        
     }
 
     /**
@@ -522,11 +571,11 @@ public class GameOfLife
     public static void main(String[] args) throws InterruptedException
     {
         GameOfLife game = new GameOfLife();
-        while (true)
-         {
-            Thread.sleep(100);
-            game.createNextGeneration();
-        }
+        //while (true)
+        // {
+        //    Thread.sleep(100);
+        //    game.createNextGeneration();
+        //}
     }
 
 }
