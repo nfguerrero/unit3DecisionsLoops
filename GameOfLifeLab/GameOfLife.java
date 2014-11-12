@@ -146,6 +146,8 @@ public class GameOfLife
         final int X86 = 52, Y86 = 40;
         final int X87 = 52, Y87 = 41;
         final int X88 = 52, Y88 = 42;
+        final int X89 = 55, Y89 = 39;
+        
         
         // the grid of Actors that maintains the state of the game
         //  (alive cells contains actors; dead cells do not)
@@ -472,6 +474,37 @@ public class GameOfLife
         Location loc80 = new Location(Y80, X80);
         grid.put(loc80, rock80);
         
+        Rock rock81 = new Rock();
+        Location loc81 = new Location(Y81, X81);
+        grid.put(loc81, rock81);
+        
+        Rock rock82 = new Rock();
+        Location loc82 = new Location(Y82, X82);
+        grid.put(loc82, rock82);
+        
+        Rock rock83 = new Rock();
+        Location loc83 = new Location(Y83, X83);
+        grid.put(loc83, rock83);
+        
+        Rock rock84 = new Rock();
+        Location loc84 = new Location(Y84, X84);
+        grid.put(loc84, rock84);
+        
+        Rock rock85 = new Rock();
+        Location loc85 = new Location(Y85, X85);
+        grid.put(loc85, rock85);
+        
+        Rock rock86 = new Rock();
+        Location loc86 = new Location(Y86, X86);
+        grid.put(loc86, rock86);
+        
+        Rock rock87 = new Rock();
+        Location loc87 = new Location(Y87, X87);
+        grid.put(loc87, rock87);
+        
+        Rock rock88 = new Rock();
+        Location loc88 = new Location(Y88, X88);
+        grid.put(loc88, rock88);
     }
 
     /**
