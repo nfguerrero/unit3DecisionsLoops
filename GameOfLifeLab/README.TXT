@@ -49,6 +49,12 @@ Nonfunctional Requirements:
 	produce and display subsequent generations.
 
 
+Reflection:
+*I liked figuring out the algorithm to make the program work like it should with the ruleds of the game
+*I disliked having to put all of the actors on the world individually... there might have been easier way, but i didn't find out
+*It was suprising to see one small mehtod could make such huge patterns
+*I would suggest new students to create a smaller grid if they are pressed on time, and focus on the createNextGeneration method the most
+	
 Artifacts to Produce:
 
 * Requirements Document: Many functional and nonfunctional requirements needs
