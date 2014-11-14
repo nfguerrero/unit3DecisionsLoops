@@ -153,6 +153,56 @@ public class GameOfLife
         final int X93 = 57, Y93 = 37;
         final int X94 = 57, Y94 = 41;
         final int X95 = 58, Y95 = 39;
+        final int X96 = 59, Y96 = 36;
+        final int X97 = 60, Y97 = 36;
+        final int X98 = 59, Y98 = 42;
+        final int X99 = 60, Y99 = 42;
+        final int X100 = 61, Y100 = 37;
+        final int X101 = 61, Y101 = 41;
+        final int X102 = 62, Y102 = 38;
+        final int X103 = 62, Y103 = 39;
+        final int X104 = 62, Y104 = 40;
+        final int X105 = 71, Y105 = 38;
+        final int X106 = 71, Y106 = 39;
+        final int X107 = 72, Y107 = 38;
+        final int X108 = 72, Y108 = 39;
+        //GosperGlider gun 4
+        final int X109 = 35, Y109 = 41;
+        final int X110 = 35, Y110 = 42;
+        final int X111 = 34, Y111 = 41;
+        final int X112 = 34, Y112 = 42;
+        final int X113 = 24, Y113 = 38;
+        final int X114 = 24, Y114 = 39;
+        final int X115 = 24, Y115 = 43;
+        final int X116 = 24, Y116 = 44;
+        final int X117 = 22, Y117 = 39;
+        final int X118 = 22, Y118 = 43;
+        final int X119 = 21, Y119 = 40;
+        final int X120 = 21, Y120 = 41;
+        final int X121 = 21, Y121 = 42;
+        final int X122 = 20, Y122 = 40;
+        final int X123 = 20, Y123 = 41;
+        final int X124 = 20, Y124 = 42;
+        final int X125 = 17, Y125 = 39;
+        final int X126 = 16, Y126 = 38;
+        final int X127 = 16, Y127 = 39;
+        final int X128 = 16, Y128 = 40;
+        final int X129 = 15, Y129 = 37;
+        final int X130 = 15, Y130 = 41;
+        final int X131 = 14, Y131 = 39;
+        final int X132 = 13, Y132 = 36;
+        final int X133 = 13, Y133 = 42;
+        final int X134 = 12, Y134 = 36;
+        final int X135 = 12, Y135 = 42;
+        final int X136 = 11, Y136 = 37;
+        final int X137 = 11, Y137 = 41;
+        final int X138 = 10, Y138 = 38;
+        final int X139 = 10, Y139 = 39;
+        final int X140 = 10, Y140 = 40;
+        final int X141 = 0, Y141 = 38;
+        final int X142 = 0, Y142 = 39;
+        final int X143 = 1, Y143 = 38;
+        final int X144 = 1, Y144 = 39;
         
         // the grid of Actors that maintains the state of the game
         //  (alive cells contains actors; dead cells do not)
@@ -534,6 +584,206 @@ public class GameOfLife
         Rock rock94 = new Rock();
         Location loc94 = new Location(Y94, X94);
         grid.put(loc94, rock94);
+        
+        Rock rock95 = new Rock();
+        Location loc95 = new Location(Y95, X95);
+        grid.put(loc95, rock95);
+        
+        Rock rock96 = new Rock();
+        Location loc96 = new Location(Y96, X96);
+        grid.put(loc96, rock96);
+        
+        Rock rock97 = new Rock();
+        Location loc97 = new Location(Y97, X97);
+        grid.put(loc97, rock97);
+        
+        Rock rock98 = new Rock();
+        Location loc98 = new Location(Y98, X98);
+        grid.put(loc98, rock98);
+        
+        Rock rock99 = new Rock();
+        Location loc99 = new Location(Y99, X99);
+        grid.put(loc99, rock99);
+        
+        Rock rock100 = new Rock();
+        Location loc100 = new Location(Y100, X100);
+        grid.put(loc100, rock100);
+        
+        Rock rock101 = new Rock();
+        Location loc101 = new Location(Y101, X101);
+        grid.put(loc101, rock101);
+        
+        Rock rock102 = new Rock();
+        Location loc102 = new Location(Y102, X102);
+        grid.put(loc102, rock102);
+        
+        Rock rock103 = new Rock();
+        Location loc103 = new Location(Y103, X103);
+        grid.put(loc103, rock103);
+        
+        Rock rock104 = new Rock();
+        Location loc104 = new Location(Y104, X104);
+        grid.put(loc104, rock104);
+        
+        Rock rock105 = new Rock();
+        Location loc105 = new Location(Y105, X105);
+        grid.put(loc105, rock105);
+        
+        Rock rock106 = new Rock();
+        Location loc106 = new Location(Y106, X106);
+        grid.put(loc106, rock106);
+        
+        Rock rock107 = new Rock();
+        Location loc107 = new Location(Y107, X107);
+        grid.put(loc107, rock107);
+        
+        Rock rock108 = new Rock();
+        Location loc108 = new Location(Y108, X108);
+        grid.put(loc108, rock108);
+        
+        Rock rock109 = new Rock();
+        Location loc109 = new Location(Y109, X109);
+        grid.put(loc109, rock109);
+        
+        Rock rock110 = new Rock();
+        Location loc110 = new Location(Y110, X110);
+        grid.put(loc110, rock110);
+        
+        Rock rock111 = new Rock();
+        Location loc111 = new Location(Y111, X111);
+        grid.put(loc111, rock111);
+        
+        Rock rock112 = new Rock();
+        Location loc112 = new Location(Y112, X112);
+        grid.put(loc112, rock112);
+        
+        Rock rock113 = new Rock();
+        Location loc113 = new Location(Y113, X113);
+        grid.put(loc113, rock113);
+        
+        Rock rock114 = new Rock();
+        Location loc114 = new Location(Y114, X114);
+        grid.put(loc114, rock114);
+        
+        Rock rock115 = new Rock();
+        Location loc115 = new Location(Y115, X115);
+        grid.put(loc115, rock115);
+        
+        Rock rock116 = new Rock();
+        Location loc116 = new Location(Y116, X116);
+        grid.put(loc116, rock116);
+        
+        Rock rock117 = new Rock();
+        Location loc117 = new Location(Y117, X117);
+        grid.put(loc117, rock117);
+        
+        Rock rock118 = new Rock();
+        Location loc118 = new Location(Y118, X118);
+        grid.put(loc118, rock118);
+        
+        Rock rock119 = new Rock();
+        Location loc119 = new Location(Y119, X119);
+        grid.put(loc119, rock119);
+        
+        Rock rock120 = new Rock();
+        Location loc120 = new Location(Y120, X120);
+        grid.put(loc120, rock120);
+        
+        Rock rock121 = new Rock();
+        Location loc121 = new Location(Y121, X121);
+        grid.put(loc121, rock121);
+        
+        Rock rock122 = new Rock();
+        Location loc122 = new Location(Y122, X122);
+        grid.put(loc122, rock122);
+        
+        Rock rock123 = new Rock();
+        Location loc123 = new Location(Y123, X123);
+        grid.put(loc123, rock123);
+        
+        Rock rock124 = new Rock();
+        Location loc124 = new Location(Y124, X124);
+        grid.put(loc124, rock124);
+        
+        Rock rock125 = new Rock();
+        Location loc125 = new Location(Y125, X125);
+        grid.put(loc125, rock125);
+        
+        Rock rock126 = new Rock();
+        Location loc126 = new Location(Y126, X126);
+        grid.put(loc126, rock126);
+        
+        Rock rock127 = new Rock();
+        Location loc127 = new Location(Y127, X127);
+        grid.put(loc127, rock127);
+        
+        Rock rock128 = new Rock();
+        Location loc128 = new Location(Y128, X128);
+        grid.put(loc128, rock128);
+        
+        Rock rock129 = new Rock();
+        Location loc129 = new Location(Y129, X129);
+        grid.put(loc129, rock129);
+        
+        Rock rock130 = new Rock();
+        Location loc130 = new Location(Y130, X130);
+        grid.put(loc130, rock130);
+        
+        Rock rock131 = new Rock();
+        Location loc131 = new Location(Y131, X131);
+        grid.put(loc131, rock131);
+        
+        Rock rock132 = new Rock();
+        Location loc132 = new Location(Y132, X132);
+        grid.put(loc132, rock132);
+        
+        Rock rock133 = new Rock();
+        Location loc133 = new Location(Y133, X133);
+        grid.put(loc133, rock133);
+        
+        Rock rock134 = new Rock();
+        Location loc134 = new Location(Y134, X134);
+        grid.put(loc134, rock134);
+        
+        Rock rock135 = new Rock();
+        Location loc135 = new Location(Y135, X135);
+        grid.put(loc135, rock135);
+        
+        Rock rock136 = new Rock();
+        Location loc136 = new Location(Y136, X136);
+        grid.put(loc136, rock136);
+        
+        Rock rock137 = new Rock();
+        Location loc137 = new Location(Y137, X137);
+        grid.put(loc137, rock137);
+        
+        Rock rock138 = new Rock();
+        Location loc138 = new Location(Y138, X138);
+        grid.put(loc138, rock138);
+        
+        Rock rock139 = new Rock();
+        Location loc139 = new Location(Y139, X139);
+        grid.put(loc139, rock139);
+        
+        Rock rock140 = new Rock();
+        Location loc140 = new Location(Y140, X140);
+        grid.put(loc140, rock140);
+        
+        Rock rock141 = new Rock();
+        Location loc141 = new Location(Y141, X141);
+        grid.put(loc141, rock141);
+        
+        Rock rock142 = new Rock();
+        Location loc142 = new Location(Y142, X142);
+        grid.put(loc142, rock142);
+        
+        Rock rock143 = new Rock();
+        Location loc143 = new Location(Y143, X143);
+        grid.put(loc143, rock143);
+        
+        Rock rock144 = new Rock();
+        Location loc144 = new Location(Y144, X144);
+        grid.put(loc144, rock144);
     }
 
     /**
@@ -633,11 +883,11 @@ public class GameOfLife
     public static void main(String[] args) throws InterruptedException
     {
         GameOfLife game = new GameOfLife();
-        //while (true)
-        // {
-        //    Thread.sleep(100);
-        //    game.createNextGeneration();
-        //}
+        while (true)
+        {
+            Thread.sleep(100);
+            game.createNextGeneration();
+        }
     }
 
 }
