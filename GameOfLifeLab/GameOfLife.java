@@ -13,8 +13,8 @@ import java.util.ArrayList;
  * Game of Life starter code. Demonstrates how to create and populate the game using the GridWorld framework.
  * Also demonstrates how to provide accessor methods to make the class testable by unit tests.
  * 
- * @author @gcschmit
- * @version 18 July 2014
+ * @author @nfguerrero
+ * @version 11/7/14
  */
 public class GameOfLife
 {
@@ -794,7 +794,7 @@ public class GameOfLife
      * @post    the world has been populated with a new grid containing the next generation
      * 
      */
-    private void createNextGeneration()
+    public void createNextGeneration()
     {
         /** You will need to read the documentation for the World, Grid, and Location classes
          *      in order to implement the Game of Life algorithm and leverage the GridWorld framework.
@@ -882,7 +882,7 @@ public class GameOfLife
      */
     public static void main(String[] args) throws InterruptedException
     {
-        GameOfLife game = new GameOfLife();
+        GameOfLife game = new GameOfLife();        
         while (true)
         {
             Thread.sleep(100);

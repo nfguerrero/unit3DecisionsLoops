@@ -33,10 +33,12 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal
 	
 Extra Requirements
 
-*Grid will be 100x50 and boundless
+*Grid will be 100x50 and bounded
 *Alive cells look like rocks
 *Dead cells are blank
 *It does not wrap around
+*Pattern is chosen by code
+*Will run endlessly updating every 100 ms
 
 
 Nonfunctional Requirements:
